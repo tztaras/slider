@@ -34,6 +34,8 @@ h1 {
     display: flex;
     position: relative;
     border-radius: 6px;
+    transition: all ease 1s;
+
 
 }
 
