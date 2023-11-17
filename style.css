@@ -110,3 +110,8 @@ img {
     opacity: 0.9;
     cursor: pointer;
 }
+
+.slider-next:active,
+.slider-back:active {
+    background: black;
+}
