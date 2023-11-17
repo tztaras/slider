@@ -114,5 +114,5 @@ img {
 .slider-next:active,
 .slider-back:active {
     background: black;
-    box-shadow: 0 0 10px rgba(165, 42, 42, 0.808)
+    box-shadow: 0 0 5px rgba(165, 42, 42, 0.808)
 }
