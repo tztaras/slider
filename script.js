@@ -1,3 +1,5 @@
+
+// ==============================код слайдер кнопки===================================
 console.log('GREETINGS UNIVERSE!');
 let offset = 0; //смещение от левого края
 let slideWidth = 355;
@@ -41,3 +43,24 @@ document.querySelector('.slider-back').addEventListener('click', function () {
 
 
 
+
+// ==============================код адаптивный слайдер кнопки===================================
+
+// let images = document.querySelectorAll('.slider .slider-line img');
+// let sliderLine = document.querySelector('.slider-line');
+// let count = 0;
+// let width;
+
+// function init() {
+//     width = document.querySelector('.slider').offsetWidth;
+//     console.log('resize');
+//     console.log(width);
+    
+//     sliderLine.style.width = width * images.length + 'px';
+//     console.log(sliderLine.style.width);
+//     images.forEach(item => {
+//         item.style.width = width + 'px';
+//         item.style.height = 'auto';
+//     })
+// }
+// init();
